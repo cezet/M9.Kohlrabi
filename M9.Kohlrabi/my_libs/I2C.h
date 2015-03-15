@@ -2,7 +2,7 @@
  * I2C.h
  *
  * Created: 28/01/2015 21:07:59
- *  Author: czop.m
+ *  Author: cezet/MLYNY9
  */ 
 
 

@@ -2,8 +2,8 @@
  * I2C.c
  *
  * Created: 28/01/2015 21:07:44
- *  Author: czop.m
- */ 
+ *  Author: cezet/MLYNY9
+ */
 #include <avr/io.h>
 #include "I2C.h"
 

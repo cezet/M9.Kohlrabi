@@ -2,7 +2,7 @@
  * common.h
  *
  * Created: 02/03/2015 00:04:25
- *  Author: czop.m
+ *  Author: cezet/MLYNY9
  */ 
 
 

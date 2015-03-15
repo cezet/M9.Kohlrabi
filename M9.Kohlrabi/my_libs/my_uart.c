@@ -2,7 +2,7 @@
  * my_uart.c
  *
  * Created: 29/01/2015 22:02:56
- *  Author: czop.m
+ *  Author: cezet/MLYNY9
  */ 
 
 #include <avr/io.h>

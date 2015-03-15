@@ -2,7 +2,7 @@
  * RS232.c
  *
  * Created: 29/01/2015 21:10:11
- *  Author: czop.m
+ *  Author:cezet/MLYNY9
  */ 
 #include <avr/io.h>
 

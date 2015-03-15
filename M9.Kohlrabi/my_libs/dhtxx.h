@@ -2,7 +2,7 @@
  * dhtxx_v2.h
  *
  * Created: 03/03/2015 16:03:13
- *  Author: czop.m
+ *  Author: cezet/MLYNY9
  */ 
 
 

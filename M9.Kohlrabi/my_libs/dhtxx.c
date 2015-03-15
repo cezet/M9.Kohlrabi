@@ -2,7 +2,7 @@
  * dhtxx_v2.c
  *
  * Created: 03/03/2015 16:02:54
- *  Author: czop.m
+ *  Author: cezet/MLYNY9
  */ 
 #include <avr/io.h>
 #include <util/delay.h>

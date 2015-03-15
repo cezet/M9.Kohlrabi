@@ -2,7 +2,7 @@
  * RS232.h
  *
  * Created: 29/01/2015 21:10:30
- *  Author: czop.m
+ *  Author: cezet/MLYNY9
  */ 
 
 
