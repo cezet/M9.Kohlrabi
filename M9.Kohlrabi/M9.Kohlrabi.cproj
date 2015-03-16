@@ -122,9 +122,9 @@
     </ToolchainSettings>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="fatfs\diskio.c">
+    <None Include="fatfs\diskio.c">
       <SubType>compile</SubType>
-    </Compile>
+    </None>
     <Compile Include="fatfs\diskio.h">
       <SubType>compile</SubType>
     </Compile>
@@ -138,6 +138,9 @@
       <SubType>compile</SubType>
     </Compile>
     <Compile Include="fatfs\integer.h">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="fatfs\mmc_avr.c">
       <SubType>compile</SubType>
     </Compile>
     <Compile Include="main.c">

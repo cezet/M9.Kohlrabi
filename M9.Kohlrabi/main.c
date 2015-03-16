@@ -19,6 +19,8 @@
 //#include "my_libs/RS232.h"
 #include "my_libs/my_uart.h"
 
+#include "fatfs/ff.h"
+
 #define KEY1 (1<<PD5)
 #define KEY2 (1<<PD7)
 #define KEY_DIR DDRD

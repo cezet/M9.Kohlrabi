@@ -8,8 +8,8 @@
 /*-----------------------------------------------------------------------*/
 
 #include "diskio.h"		/* FatFs lower layer API */
-#include "usbdisk.h"	/* Example: Header file of existing USB MSD control module */
-#include "atadrive.h"	/* Example: Header file of existing ATA harddisk control module */
+//#include "usbdisk.h"	/* Example: Header file of existing USB MSD control module */
+//#include "atadrive.h"	/* Example: Header file of existing ATA harddisk control module */
 #include "sdcard.h"		/* Example: Header file of existing MMC/SDC contorl module */
 
 /* Definitions of physical drive number for each drive */
