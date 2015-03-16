@@ -12,7 +12,7 @@
 #include "ff.h"
 #include "diskio.h"
 #include "rtc.h"
-#include "sound.h"
+//#include "sound.h"
 
 
 //FUSES = {0xAF, 0xC3, 0xFF};
