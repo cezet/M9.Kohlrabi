@@ -78,3 +78,6 @@ $RECYCLE.BIN/
 # Dirs
 Debug/
 Release/
+
+# Atmel Studio
+*.atsuo
