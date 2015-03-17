@@ -43,6 +43,8 @@ int EEMEM ee_th2_offset;
 int EEMEM ee_rh1_offset;
 int EEMEM ee_rh2_offset;
 
+FIL dupa112;
+
 
 int main(void)
 {
@@ -58,18 +60,23 @@ int main(void)
 			
 	uint8_t bufor[4];
 	uint8_t seconds, minutes, hours;
-
+	int result = 0;
 	RELAY_DIR |= RELAY_PIN;
 	
 	
 	KEY_DIR &= ~( KEY1 | KEY2);
 	KEY_PORT |= (KEY1 | KEY2);
 		
-	//USART_Init(__UBRR);
+	USART_Init(__UBRR);
 	TWI_init_baud();
-	LCD_Initalize();
-	LCD_Clear();
-	LCD_WriteText("Czas: ");
+
+	
+	uart_puts("TEST\r\n");
+	
+	result = f_open(&dupa112, "test.txt", FA_CREATE_NEW);
+	
+	itoa(result, text_buffer, 10);
+	uart_puts(text_buffer);
 	
 	th1_offset = eeprom_read_word(&ee_th1_offset);
 	th2_offset = eeprom_read_word(&ee_th2_offset);
