@@ -13,6 +13,13 @@ void bcd_to_ascii(char inp_byte, char *text){
 	*text++ = '\0';
 }
 
-void itoa8bit(int8_t input_int, char *char_table,uint8_t digits, uint8_t radix){
+void itoa8bit(int8_t input_int, char *char_table,uint8_t digits){
+	
+	
+	
+	if (input_int & 0x80)
+	{
+		*char_table = '-';
+	}
 	
 }
